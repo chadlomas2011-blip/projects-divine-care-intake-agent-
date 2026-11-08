@@ -1,39 +1,31 @@
-### 🤖 [AI Client Onboarding & Intake Automation](./projects/divine-care-intake-agent)
-An intelligent, no-code AI Agent and automation system built for an NLP & Hypnotherapy practice using Zapier Agents, Google Workspace, and custom system prompts.
-* **Key Features:** Multi-step intake form, automated Google Sheets CRM, crisis guardrails, and scheduled pre/post-session client follow-ups.
-* **Tech Stack:** `Zapier Agents` | `Google Forms` | `Google Sheets` | `Gmail` | `Google Calendar`
-# projects-divine-care-intake-agent-
-​AI client onboarding pipeline &amp; Zapier Agent built for Divine Care Connection. Automates multi-section Google Forms intake, CRM syncing in Google Sheets, automated calendar scheduling, and pre/post-session client workflows.
----# 🤖 AI Client Onboarding & Intake Automation
+# Divine Care Connection — AI Client Intake Automation
 
-[![Zapier](https://img.shields.io/badge/Zapier-FF4A00?style=for-the-badge&logo=zapier&logoColor=white)](https://zapier.com)
-[![Google Workspace](https://img.shields.io/badge/Google%20Workspace-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://workspace.google.com)
-[![AI Agent](https://img.shields.io/badge/AI_Agent-System_Prompted-purple?style=for-the-badge)](#)
+An automated client intake workflow developed for **my own coaching and hypnotherapy business, Divine Care Connection**.
 
-**Client / Practice:** Divine Care Connection  
-**Role:** AI Systems Builder & Automation Specialist  
-**Tech Stack:** `Zapier Agents` | `Google Forms` | `Google Sheets` | `Gmail` | `Google Calendar`
+I built this workflow to organize incoming client information and support intake-related administration. The project used Zapier Agents and Google Workspace, with a live CRM integration.
 
----
+## My role
 
-## 📌 Executive Summary
-Manual client intake and scheduling create administrative overhead and delay client response times. I designed and deployed an intelligent, no-code **AI Agent pipeline** for Divine Care Connection—an NLP life coaching and hypnotherapy practice. 
+Founder and technology developer.
 
-This system automates lead triage, structures multi-section client intake data, and manages pre/post-session communications while maintaining strict medical disclaimer and safety guardrails.
+## Workflow components described in this project
 
----
+- Google Forms for collecting intake information
+- Google Sheets as a structured record / CRM workspace
+- Zapier Agents for workflow automation and AI-assisted processing
+- Gmail for email communication
+- Google Calendar for scheduling-related workflow steps
 
-## 🏗️ System Architecture Flowchart
+The original project design also describes pre-session and post-session communications and safety-related routing concepts. These should be treated as documented workflow design elements, not as independently verified clinical or emergency-response services.
 
-```mermaid
-graph TD
-    A[Client Submits Google Form] -->|Auto-Sync| B[(Google Sheets CRM)]
-    B --> C{Zapier AI Agent}
-    
-    C -->|New Lead Inquiry| D[Draft Personal Email & Send Consultation Link]
-    C -->|48 Hours Pre-Session| E[Send Quiet-Space Rules & Prep Guidelines]
-    C -->|24-48 Hours Post-Session| F[Dispatch Integration Journal Prompts & Audio Links]
-    
-    C -->|Crisis/Medical Keywords Detected| G[🚨 Safety Protocol: Route to 988 Helpline & Alert Owner]
+## Technology
 
+Zapier Agents, Google Forms, Google Sheets, Gmail, Google Calendar, and CRM integration.
 
+## Business context and limitations
+
+Divine Care Connection was my own business venture. The intake automation was built, and the CRM integration was live. The business did not acquire paying clients, and I discontinued the venture because website operating costs were not justified by client acquisition.
+
+This was an entrepreneurial project, not a paid client engagement. No client outcomes, revenue, or operational performance improvements are claimed.
+
+Created by Chad Lomas.
